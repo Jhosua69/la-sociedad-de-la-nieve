@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Sociedad de la Nieve</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0;
+            background-color: #000;
+            /* Fondo negro */
+            color: #fff;
+            /* Texto blanco */
+        }
+
+        header {
+            background: #373739;
+            /* Azul oscuro */
+            padding: 20px;
+            color: #fff;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        section {
+            width: 70%;
+            background: #1a1a1a;
+            /* Gris oscuro */
+            margin: auto;
+            overflow: auto;
+            padding: 30px;
+        }
+
+        footer {
+            clear: both;
+            background: #0f3057;
+            /* Azul oscuro */
+            text-align: center;
+            padding: 20px;
+        }
+
+        li {
+            border: 3px solid aqua;
+            /* Azul oscuro */
+            margin: 10px 15px 10px 8px;
+            background-color: #22060b;
+            /* Azul oscuro */
+            display: inline-block;
+            padding: 10px;
+            color: #fff;
+            /* Texto blanco */
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-radius: 5px;
+        }
+
+        li a {
+            color: aqua;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            color: #64d4ea;
+            /* Texto azul */
+        }
+
+        th,
+        td {
+            border: 1px solid #64d4ea;
+            /* Borde más claro */
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #373739;
+            /* Fondo más claro */
+        }
+
+        tr:nth-child(even) {
+            background-color: #020202;
+            /* Fondo oscuro para filas pares */
+        }
+
+        tr:nth-child(odd) {
+            background-color: #19191a;
+            /* Fondo más claro para filas impares */
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para h2 */
+        h2 {
+            font-family: "Arial", sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #64d4ea;
+            /* Texto azul */
+        }
+
+        /* Estilos para p */
+        p {
+            font-family: "Verdana", Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            color: #fff;
+            /* Texto blanco */
+            border: 1px solid #64d4ea;
+            /* Borde azul */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Estilos para p3 */
+        p3 {
+            font-family: "Georgia", serif;
+            font-style: italic;
+            font-size: 18px;
+            color: #a4d5ff;
+            /* Texto azul claro */
+            margin-bottom: 10px;
+        }
+
+        /* Estilo para h1 */
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 36px;
+            font-weight: bold;
+            color: #fdfdfd;
+            /* Texto negro */
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>LA SOCIEDAD DE LA NIEVE DESDE OTRA PERSPECTIVA <img src="img/15.jpg" style="width: 500px; height: 150px;">
+        </h1>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="#his">Historia</a></li>
+            <li><a href="#pas">PASAJEROS</a></li>
+            <li><a href="#acc">ACCIDENTE</a></li>
+            <li><a href="#soc">SOCIEDAD DE LA NIEVE</a></li>
+            <li><a href="#ope">OPERATIVO DE BUSQUEDA</a></li>
+            <li><a href="#res">RESCATE</a></li>
+            <li><a href="#fra">FRASES</a></li>
+        </ul>
+    </nav>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/6.jpg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="his">Historia</h2>
+                <p>En la cordillera de los Andes, un accidente de avión deja a un grupo de jóvenes rugbiers varados en
+                    la nieve. Atrapados en un mundo hostil, sin comida ni refugio, deberán recurrir a su ingenio y a la
+                    fuerza del compañerismo para sobrevivir. La película explora los límites del ser humano, la
+                    capacidad de adaptación y la importancia del espíritu de equipo en la lucha por la supervivencia.
+                </p>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/4.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/2.jpg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" style="text-align:center;" id="pas">PASAJEROS DEL VUELO 571</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jose Luis Inciarte (superviviente)</td>
+                            <td>Daniel Fernández (superviviente)</td>
+                            <td>Javier Methol (superviviente)</td>
+                        </tr>
+                        <tr>
+                            <td>Liliana Navarro Petraglia de Methol</td>
+                            <td>Felipe Maiquirrian</td>
+                            <td>Graziela Augusto Gumila de Mariani</td>
+                        </tr>
+                        <tr>
+                            <td>Julio Martínez – Lamas</td>
+                            <td>Juan Carlos Menéndez</td>
+                            <td>Dr. Francisco Nicola</td>
+                        </tr>
+                        <tr>
+                            <td>Esther Horta Pérez de Nicola</td>
+                            <td>Arturo Nogueira</td>
+                            <td>Eugenia Dolgay Diebug de Parrado</td>
+                        </tr>
+                        <tr>
+                            <td>Susana Parrado</td>
+                            <td>Daniel Shaw</td>
+                            <td>Numa Turcatti</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Valeta</td>
+                            <td>Fernando Vázquez</td>
+                            <td>Daniel Maspons</td>
+                        </tr>
+                        <tr>
+                            <td>Ovidio Joaquín Ramírez</td>
+                            <td>Carlos Roque</td>
+                            <td>Ramón Martínez</td>
+                        </tr>
+                        <tr>
+                            <td>Dante Héctor Laguara</td>
+                            <td>Julio César Ferradas</td>
+                            <td>Roberto Canessa (superviviente)</td>
+                        </tr>
+                        <tr>
+                            <td>Fernando Parrado (superviviente)</td>
+                            <td>Gustavo Zerbino (superviviente)</td>
+                            <td>Antonio Vizintín (superviviente)</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Páez (superviviente)</td>
+                            <td>Roy Harley (superviviente)</td>
+                            <td>Roberto François (superviviente)</td>
+                        </tr>
+                        <tr>
+                            <td>Alfredo Delgado (superviviente)</td>
+                            <td>Francisco Abal</td>
+                            <td>Gastón Costemalle</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael Echavarren</td>
+                            <td>Alexis Hounié</td>
+                            <td>Guido Magri</td>
+                        </tr>
+                        <tr>
+                            <td>Marcelo Pérez del Castillo</td>
+                            <td>Gustavo Nicolich</td>
+                            <td>Diego Storm</td>
+                        </tr>
+                        <tr>
+                            <td>Enrique Platero</td>
+                            <td>Álvaro Mangino (superviviente)</td>
+                            <td>Eduardo Strauch (superviviente)</td>
+                        </tr>
+                        <tr>
+                            <td>Adolfo Strauch (superviviente)</td>
+                            <td>Ramón Sabella (superviviente)</td>
+                            <td>Pedro Algorta (superviviente)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/3.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/7.jpeg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="acc">Accidente del Vuelo 571</h2>
+                <p>El accidente del vuelo 571 ocurrió cuando la aeronave, desviada de su ruta, impactó contra los Andes
+                    el 13 de octubre de 1972. Los sobrevivientes lucharon por su vida en condiciones extremadamente
+                    adversas, enfrentando el frío, la falta de alimentos y lesiones graves. Después de más de dos meses,
+                    fueron rescatados el 20 de diciembre de 1972. La historia se destaca por la extraordinaria lucha por
+                    la supervivencia y los actos de sacrificio humano que se vieron obligados a realizar.</p>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/8.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/1.jpg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="soc">La Sociedad de la Nieve</h2>
+                <p>En medio de los Andes, un grupo de jóvenes rugbistas enfrenta una situación desesperada tras un
+                    accidente aéreo que los deja aislados y sin esperanza de rescate. Conscientes de que su única
+                    oportunidad de sobrevivir es permanecer unidos, superan el individualismo y egoísmo inherentes al
+                    deporte para formar una sociedad de solidaridad y colaboración.</p>
+
+                <p>Racionando los escasos suministros que tienen a su disposición, se organizan para mantener la
+                    esperanza y la cordura. Sin embargo, cuando las provisiones se agotan y la muerte acecha, se ven
+                    obligados a tomar decisiones extremas, como recurrir al canibalismo para mantenerse con vida.</p>
+
+                <p>A pesar de la terrible situación, mantienen una estructura de comunidad, asignando roles y tareas
+                    para maximizar sus posibilidades de supervivencia. A través de la cooperación, la empatía y la
+                    compasión, logran resistir condiciones inhumanas y finalmente son rescatados, demostrando el poder
+                    del espíritu humano cuando se une en tiempos de adversidad.</p>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/5.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/9.jpeg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="ope">Operativo de Búsqueda</h2>
+                <p>El operativo de búsqueda del vuelo 571 comenzó tras la desaparición del avión en los Andes el 13 de
+                    octubre de 1972. Sin embargo, debido a las difíciles condiciones climáticas y al terreno montañoso,
+                    la búsqueda fue inicialmente infructuosa y se canceló después de varios días.</p>
+                <p>Fue reactivado después de que se encontraron evidencias de posibles supervivientes, como restos del
+                    avión y objetos personales. Este reinicio de la búsqueda llevó al histórico descubrimiento de los 16
+                    supervivientes del accidente de avión, que habían sobrevivido en condiciones extremadamente adversas
+                    durante más de dos meses en las inhóspitas montañas.</p>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/10.png" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/11.jpg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="res">Rescate</h2>
+                <p>Los sobrevivientes del vuelo 571, tras ser rescatados, experimentaron una mezcla de emociones que
+                    iban desde la alegría y el alivio hasta la incredulidad y el trauma. Después de soportar semanas de
+                    sufrimiento en las duras condiciones de la montaña, el rescate representó un momento de esperanza y
+                    salvación.</p>
+                <p>Muchos expresaron su gratitud hacia los rescatistas y sintieron una profunda conexión con quienes los
+                    habían ayudado a sobrevivir. Al mismo tiempo, enfrentaron el desafío de adaptarse nuevamente a la
+                    vida civilizada después de una experiencia tan traumática y extrema.</p>
+                <p>La experiencia marcó profundamente a los sobrevivientes, dejándoles lecciones sobre la fuerza del
+                    espíritu humano, la importancia de la solidaridad y la resiliencia frente a la adversidad.</p>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/12.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="column col-md-3">
+                <!-- Contenido para la columna izquierda (foto) -->
+                <img src="img/13.jpg" alt="Foto">
+            </div>
+            <div class="column col-md-6">
+                <h2 id="fra">Frase</h2>
+                <p3>"NO HAY AMOR MÁS GRANDE QUE DAR LA VIDA POR SUS AMIGOS"</p3>
+                <br>
+                <p3>"PARA EL RESTO DEL MUNDO ESTABAMOS MUERTOS, PERO SEGUIAMOS VIVOS"</p3>
+            </div>
+            <div class="column col-md-3">
+                <!-- Contenido para la columna derecha (foto) -->
+                <img src="img/14.jpg" alt="Foto">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p4>© 2024 La Sociedad de la Nieve</p4>
+    </footer>
+</body>
+
+</html>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
